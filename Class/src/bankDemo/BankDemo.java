@@ -37,6 +37,7 @@ class CheckingAccount{
 	         throw new InsufficientFundsException(needs);
 	      }
 	   }
+	
 		
 	public double getBalance() {
 	      return balance;
